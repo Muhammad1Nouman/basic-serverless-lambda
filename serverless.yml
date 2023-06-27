@@ -1,0 +1,12 @@
+service: serverless-github-action
+frameworkVersion: '3'
+
+provider:
+    name: aws
+    runtime: python2.7
+    stage: dev
+    region: us-east-1
+
+functions:
+    hello:
+        handler: src/handler.hello
