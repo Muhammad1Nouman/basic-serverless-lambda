@@ -2,7 +2,7 @@ service: serverless-github-action
 
 provider:
     name: aws
-    runtime: python3.10
+    runtime: nodejs18.x
     stage: dev
     region: eu-west-1
 
